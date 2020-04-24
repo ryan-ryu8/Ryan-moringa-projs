@@ -1,0 +1,113 @@
+<html>
+  <head>
+    <title></title>
+      <meta charset="utf-8">
+      <meta name="viewport" content="width=device-width, initial scale=1">
+
+    <link href="css/styles.css" rel="stylesheet" type="text/css">
+  </head>
+     <body>
+      <div class="background">
+        
+          <div class="nav">
+            <a class="a active" href="#">HOME</a>
+            <a class="b" href="#">ABOUT ME</a>
+            <a class="c" href="#">GALLERY</a>
+            <a class="d" href="#">CONTACT ME</a>
+          </div>
+
+        <div class="content">
+          <div class="home">
+            <h1> I am Ryan Munge</h1>
+            <h3>Stud3nt at Moringa</h3>
+          </div>
+
+        <div class="about us">
+          <p> Hey there,<br>So about me is that am student at moringa doing prep.Joined because I feel
+            what i've been doing for the past one year hasn't been of much help.<br>I feel moringa school
+            will help me in acquiring the practical skills of the computer world.Being 19 feels like there's
+            the pressure of having to do big things like coding, programming and other computer things.<br>
+
+            </p>
+        </div>
+
+        <div class="gallery">
+          <h1>Some of the motivating photos to share</h1>
+          <div class="image">
+            <img src="images/2.jpg"/>
+          </div>
+          <div class="image">
+            <img src="images/3.jpg"/>
+          </div>
+          <div class="image">
+            <img src="images/4.jpg"/>
+          </div>
+          <div class="image">
+            <img src="images/5.jpg"/>
+          </div>
+          <div class="image">
+            <img src="images/6.jpg"/>
+          </div>
+
+        <div class="contactus">
+          <div class="contactform">
+            <form action="index.html" method="post">
+              <inputtype="text" name="" class="inputtext" value="First Name">
+                <inputtype="text" name="" class="inputtext" value="Last Name">
+                  <inputtype="text" name="" class="inputtext" value="Your Email">
+                   <<textarea name="name" rows="8" cols="80" class="inputtext">Your Comment....</textarea>
+                   <inputtype="button" name="" class="submitbutton" value="Submit">
+              </form>
+      </div>
+
+   <script type="text/javascript" src="js/jquery-1.11.3.min.js">
+     </script>
+     <script type="text/javascript">
+
+      $(document).ready(function(){
+        $('a')click(function(){
+          //alert("I am a click");
+          var selected=$(this);
+          $('a').remove class('active');
+          $(selected).addClass('active');
+        });
+        var.$a=$('.a'),
+           $b=$('.b'),
+           $c=$('.c'),
+           $d=$('.d'),
+
+           $home=$('.home'),
+           $aboutus=$('.aboutus'),
+           $gallery=$('.gallery'),
+           $contactus=$('.contactus'),
+
+
+        }
+      }
+
+         $a.click(function(){
+           $home.foldIn();
+           $aboutus.fadeOut();
+           $gallery.fadeOut();
+           $contactus.fadeOut();
+         });
+         $b.click(function(){
+           $aboutus.foldIn();
+           $home.fadeOut();
+           $gallery.fadeOut();
+           $contactus.fadeOut();
+         });
+         $c.click(function(){
+           $gallery.foldIn();
+           $aboutus.fadeOut();
+           $home.fadeOut();
+           $contactus.fadeOut();
+         });
+         $d.click(function(){
+           $contactus.foldIn();
+           $aboutus.fadeOut();
+           $gallery.fadeOut();
+           $home.fadeOut();
+         });
+</body>
+</html>
