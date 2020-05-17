@@ -1,5 +1,5 @@
 # WEBSITE PORTFOLIO
- creating the landing page for your programming portfolio.  
+ Creating the landing page for your programming portfolio.  
 ## Built by: 
 [Ryan Munge Githanji](https://github.com/ryan-ryu8/Ryan-moringa-projs.git)
 # Prerequisites
