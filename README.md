@@ -1,5 +1,5 @@
 # WEBSITE PORTFOLIO
- Implementation of everything I have learnt from Bootstrap and jQuery to recreate a landing page for a fictional studio 
+ creating the landing page for your programming portfolio.  
 ## Built by: 
 [Ryan Munge Githanji](https://github.com/ryan-ryu8/Ryan-moringa-projs.git)
 # Prerequisites
