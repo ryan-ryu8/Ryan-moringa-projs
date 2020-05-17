@@ -165,7 +165,7 @@ submitbutton{
 
 @media only screen (min-width:480px)(max-width:768px){
   nav a{
-    font-size: 10px;
+    font-size: 15px;
     width:auto;
     height:30px;
     line-height:30px;
