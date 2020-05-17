@@ -10,10 +10,6 @@
  ## Built with
     HTML
     CSS
-    jQuery
-    Bootstrap; 
-         js
-         css
   #License
     MIT
     Ryan Munge
